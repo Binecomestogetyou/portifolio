@@ -1,0 +1,23 @@
+body {
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+p {
+    font-family: Titillium Web, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+}
+
+nav {
+    margin-top: 100px;
+}
+
+li {
+    font-family: Chakra Petch, sans-serif;
+    font-size: larger;
+}
+
+a {
+    text-decoration: none;
+}
