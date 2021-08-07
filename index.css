@@ -8,7 +8,7 @@
     margin-top: 0px;
     display: flex;
     flex-direction: column;
-    color: #60c;
+    color: #0bf;
     font-family: Merienda, cursive;
     font-size: large;
 }
@@ -20,16 +20,17 @@
 }
 
 #eu{
-    float: left;
     height: 200px;
     width: 190px;
+    position: relative;
+    float: left;
     margin-right: 10px;
     border-radius: 50%;
 }
 
-#bios {
+p {
     padding: 10px;
-    text-align: left;
+    text-align: justify;
     font-size: large;
 }
 
@@ -58,6 +59,6 @@
 }
 
 #contatos  a {
-    color: #90f;
+    color: #09c;
     text-decoration: none;
 }
