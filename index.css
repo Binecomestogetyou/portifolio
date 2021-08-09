@@ -8,7 +8,7 @@
     margin-top: 0em;
     display: flex;
     flex-direction: column;
-    color: #0bf;
+    color: #d9bf77;
     font-family: Merienda, cursive;
     font-size: large;
 }
@@ -39,13 +39,17 @@ p {
 }
 
 #blogs{
-    margin-top: 2.5em;
+    margin-top: 1em;
     font-size: large;
 }
 
-#blogs  a {
-    color: #60c;
+a {
+    color: #d8ebb5;
     text-decoration: none;
+}
+
+a.visited {
+    color: #639a67;
 }
 
 #contatos {
@@ -59,6 +63,5 @@ p {
 }
 
 #contatos  a {
-    color: #09c;
     text-decoration: none;
 }
