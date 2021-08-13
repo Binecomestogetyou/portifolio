@@ -1,6 +1,15 @@
 body {
-    padding-left: 250px;
-    padding-right: 250px;
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+    border: solid 1px;
+}
+
+#esquerda {
+    margin: 0px;
+    width: 200em;
+    border-right: solid 1px;
+    padding: 1em 2em;
 }
 
 p {
@@ -9,15 +18,36 @@ p {
     font-size: larger;
 }
 
+#direita {
+    position: relative;
+    margin: 0em;
+    width: 100%;
+    padding-top: 0em;
+}
+
 nav {
-    margin-top: 100px;
+    width: 100%;
+    margin: 0em;
+    padding: 0em;
+}
+
+ul {
+    width: 100%;
+    margin-top: 0em;
+    padding: 0px;
 }
 
 li {
+    width: 100%;
+    margin: 0px;
+    font-size: x-large;
+    font-weight: bold;
     font-family: Chakra Petch, sans-serif;
-    font-size: larger;
+    text-align: center;
+    border-bottom: solid 1px;
 }
 
 a {
+    color: #000;
     text-decoration: none;
 }
