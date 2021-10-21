@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Aprender Fazendo</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <article>
+        <p>É incrível o quanto a gente aprende quando se propõe a 
+            fazer algo em programação. O projeto Cidadela do Caos tá me 
+            ensinando horrores. Por ser um programa multiarquivo em C, 
+            eu comecei aprendendo um bocado sobre o processo de 
+            compilação. Eu não entendia muito bem a diferença entre 
+            código-objeto e código de máquina, e não tinha muito noção 
+            do que era o assembler. Também não entendia totalmente a 
+            função de um arquivo de cabeçalho. De lambuja, ainda aprendi 
+            a fazer um makefile simples para compilar tudo sem precisar 
+            ficar listando arquivos toda vez que eu preciso recompilar 
+            algum arquivo, uma maravilha.
+        </p>
+
+        <p>A bola da vez é a experiência com interfaces gráficas. 
+            Como o projeto é um jogo de texto, achei que seria 
+            suficiente somente jogar o texto na tela. Ledo engano. Vou 
+            precisar refazer o modo de exibição se quiser facilitar a 
+            minha vida. Criei uma struct para guardar dados de texto. 
+            Como esses dados são simples, ela também o é. Armazena as 
+            informações da área onde o texto será escrito – coordenadas 
+            do ponto onde a função de escrita deve começar a trabalhar e 
+            a largura máxima que o texto poderá ocupar – e um ponteiro 
+            para a string que o contém. A função de escrita em vez de não 
+            retornar nada, agora vai retornar a altura da caixa de texto, 
+            e eu vou poder usar essa informação para posicionar outras 
+            coisas na tela. O uso dessas structs vai facilitar muito a 
+            minha vida. Percebi que vou precisar de mais algumas macros 
+            também, e que é melhor basear as coordenadas da matriz de 
+            projeção nessas macros.
+        </p>
+
+        <p>Eu estou muito satisfeito com isso tudo. Animado e, de alguma 
+            maneira, feliz com o meu desenvolvimento. Eu sempre acho que 
+            não sou tão inteligente quanto as pessoas dizem que eu sou 
+            mas, aparentemente, eu sou mesmo.
+        </p>
+
+    </article>
+</body>
+</html>
