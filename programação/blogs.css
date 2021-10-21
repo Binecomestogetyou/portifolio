@@ -1,6 +1,4 @@
 body {
-    display: flex;
-    flex-direction: column;
     margin: 1em;
     border: solid 1px;
     padding: 1em 2em;
@@ -12,6 +10,7 @@ p {
     font-weight: bold;
     font-size: larger;
     text-align: justify;
+    overflow: auto;
 }
 
 #homecinza {
