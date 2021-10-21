@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    border: solid 1px;
+    padding: 1em 2em;
+}
+
+p {
+    margin-bottom: 4em;
+    font-family: Titillium Web, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    text-align: justify;
+}
+
+#homecinza {
+    width: 40em;
+    height: 22.5em;
+    float: right;
+    margin-left: 2em;
+}
+
+#homecolunas {
+    width: 40em;
+    height: 18.8em;
+    float: left;
+    margin-right: 2em;
+}
+
+#homeboa {
+    width: 40em;
+    height: 17.9em;
+    float: right;
+    margin-left: 2em;
+}
+
+#homeprogramacao {
+    width: 40em;
+    height: 10.8em;
+    float: left;
+    margin-right: 2em;
+}
