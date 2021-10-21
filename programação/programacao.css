@@ -5,7 +5,7 @@ body {
     border: solid 1px;
 }
 
-#esquerda {
+section {
     margin: 0px;
     width: 200em;
     border-right: solid 1px;
@@ -18,17 +18,11 @@ p {
     font-size: larger;
 }
 
-#direita {
+nav {
     position: relative;
     margin: 0em;
     width: 100%;
     padding-top: 0em;
-}
-
-nav {
-    width: 100%;
-    margin: 0em;
-    padding: 0em;
 }
 
 ul {
